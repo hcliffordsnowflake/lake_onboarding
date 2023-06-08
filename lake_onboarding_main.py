@@ -1,2 +1,2 @@
 import streamlit
-streamlit.title('CoDE DataSet On-Boarding Form')
+streamlit.title('Center of Data Excellence On-Boarding Form')
