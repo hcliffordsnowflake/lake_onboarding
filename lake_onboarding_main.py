@@ -4,7 +4,7 @@ from PIL import Image
 streamlit.title('CoDE On-Boarding Forms')
 
 image = Image.open('Data_Center_Logo.png')
-streamlit.image(image, caption='Center of Data Excellence')
+streamlit.image(image, caption='Center of DATA Excellence')
 
 # Connect to Snowflake
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
