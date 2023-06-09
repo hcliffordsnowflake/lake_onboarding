@@ -20,4 +20,4 @@ option = streamlit.selectbox(
     'Business Unit:',
     (pandas.DataFrame(my_data_rows)))
 
-#streamlit.write('You selected:', option)
+streamlit.write('You selected:', option)
