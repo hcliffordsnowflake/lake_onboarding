@@ -17,6 +17,6 @@ my_data_rows = my_cur.fetchall()
 streamlit.title('Business Unit Identification')
 option = streamlit.selectbox(
     'Business Unit:',
-    (streamlit.dataframe(my_data_rows))
+    (streamlit.dataframe(my_data_rows)))
 
 streamlit.write('You selected:', option)
