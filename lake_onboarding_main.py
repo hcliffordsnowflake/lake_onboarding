@@ -1,4 +1,5 @@
 import streamlit
+import pandas
 import snowflake.connector
 from PIL import Image
 streamlit.title('CoDE On-Boarding Form Test')
