@@ -19,4 +19,4 @@ option = streamlit.selectbox(
     'Business Unit:',
     (streamlit.dataframe(my_data_rows)))
 
-streamlit.write('You selected:', option)
+#streamlit.write('You selected:', option)
